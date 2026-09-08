@@ -1,0 +1,2 @@
+let context;
+export function alertTone(enabled){if(!enabled)return;try{context ||= new (window.AudioContext||window.webkitAudioContext)();context.resume();const o=context.createOscillator(),g=context.createGain();o.frequency.value=620;g.gain.setValueAtTime(.04,context.currentTime);g.gain.exponentialRampToValueAtTime(.001,context.currentTime+.12);o.connect(g);g.connect(context.destination);o.start();o.stop(context.currentTime+.13);}catch{}}

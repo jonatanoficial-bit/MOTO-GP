@@ -1,0 +1,1102 @@
+[
+  {
+    "key": "art-001",
+    "src": "assets/art/art-09-34-46-1-v01.png",
+    "version": 1,
+    "width": 1672,
+    "height": 941,
+    "fallback": null,
+    "original": "ChatGPT Image 8_09_2026, 09_34_46 (1).png",
+    "sha256": "b55eb62b8db6af9daa1a111e7d1715df356536ae7f9da7ec8d5fcaf25dba8a26"
+  },
+  {
+    "key": "art-002",
+    "src": "assets/art/art-09-34-47-2-v01.png",
+    "version": 1,
+    "width": 1672,
+    "height": 941,
+    "fallback": null,
+    "original": "ChatGPT Image 8_09_2026, 09_34_47 (2).png",
+    "sha256": "2c636dae500eb2b071066ce3b3b9d1068c940e6cb9686e7bdae8374ddbe55d16"
+  },
+  {
+    "key": "art-003",
+    "src": "assets/art/art-09-34-47-3-v01.png",
+    "version": 1,
+    "width": 1672,
+    "height": 941,
+    "fallback": null,
+    "original": "ChatGPT Image 8_09_2026, 09_34_47 (3).png",
+    "sha256": "a93ef56ed893630f07fc0bd7f73e87fa4942a10b5944738d9880248ece4058e2"
+  },
+  {
+    "key": "art-004",
+    "src": "assets/art/art-09-34-47-4-v01.png",
+    "version": 1,
+    "width": 1672,
+    "height": 941,
+    "fallback": null,
+    "original": "ChatGPT Image 8_09_2026, 09_34_47 (4).png",
+    "sha256": "73a8f72f3bf8d7c002973dbd13e8774e4cae52eeca986593d8bde0f6a1bc490a"
+  },
+  {
+    "key": "art-005",
+    "src": "assets/art/art-09-34-47-5-v01.png",
+    "version": 1,
+    "width": 1672,
+    "height": 941,
+    "fallback": null,
+    "original": "ChatGPT Image 8_09_2026, 09_34_47 (5).png",
+    "sha256": "9777c68b1e2ff0adfed716bfe77d2a19aac980c5ca42d4984931e8ad98c3446e"
+  },
+  {
+    "key": "art-006",
+    "src": "assets/art/art-09-34-47-6-v01.png",
+    "version": 1,
+    "width": 1672,
+    "height": 941,
+    "fallback": null,
+    "original": "ChatGPT Image 8_09_2026, 09_34_47 (6).png",
+    "sha256": "ded31d9a51ae0f826f57454ed46bab2cfabf85cc0f0c33083278370d7e5b2a0e"
+  },
+  {
+    "key": "art-007",
+    "src": "assets/art/art-09-34-48-10-v01.png",
+    "version": 1,
+    "width": 1672,
+    "height": 941,
+    "fallback": null,
+    "original": "ChatGPT Image 8_09_2026, 09_34_48 (10).png",
+    "sha256": "b2df67e4ef8222698e3a6eebf1f2f0abdd9a64064c2868f2a7c861a990885d23"
+  },
+  {
+    "key": "art-008",
+    "src": "assets/art/art-09-34-48-7-v01.png",
+    "version": 1,
+    "width": 1672,
+    "height": 941,
+    "fallback": null,
+    "original": "ChatGPT Image 8_09_2026, 09_34_48 (7).png",
+    "sha256": "e6f9d50a8f89e1ee72142cce40bd41c460f18dfcb1aa44250025b40bd82211da"
+  },
+  {
+    "key": "art-009",
+    "src": "assets/art/art-09-34-48-8-v01.png",
+    "version": 1,
+    "width": 1672,
+    "height": 941,
+    "fallback": null,
+    "original": "ChatGPT Image 8_09_2026, 09_34_48 (8).png",
+    "sha256": "33f92bafa3c26d56cb6a4b7ff07d94442b1d0222a21bfeb2913dfce93efe5750"
+  },
+  {
+    "key": "art-010",
+    "src": "assets/art/art-09-34-48-9-v01.png",
+    "version": 1,
+    "width": 1672,
+    "height": 941,
+    "fallback": null,
+    "original": "ChatGPT Image 8_09_2026, 09_34_48 (9).png",
+    "sha256": "230fb6fd21cfd01d436ae99b1899198dd07f9835a57ffe6147e7287f3526ec79"
+  },
+  {
+    "key": "art-011",
+    "src": "assets/art/art-09-35-06-1-v01.png",
+    "version": 1,
+    "width": 1672,
+    "height": 941,
+    "fallback": null,
+    "original": "ChatGPT Image 8_09_2026, 09_35_06 (1).png",
+    "sha256": "c74974692af5bf82baa71dc0da9ea432a3a96d07633162ba89ed8223d6f1cf64"
+  },
+  {
+    "key": "art-012",
+    "src": "assets/art/art-09-35-07-10-v01.png",
+    "version": 1,
+    "width": 1672,
+    "height": 941,
+    "fallback": null,
+    "original": "ChatGPT Image 8_09_2026, 09_35_07 (10).png",
+    "sha256": "fe88ad2198f2cafb83502aea24c8baef51863696fea387ca80a4431b7c14c451"
+  },
+  {
+    "key": "art-013",
+    "src": "assets/art/art-09-35-07-2-v01.png",
+    "version": 1,
+    "width": 1672,
+    "height": 941,
+    "fallback": null,
+    "original": "ChatGPT Image 8_09_2026, 09_35_07 (2).png",
+    "sha256": "32c1686baf165e04583289279225e611690c28300344394eb10097381f33da32"
+  },
+  {
+    "key": "art-014",
+    "src": "assets/art/art-09-35-07-3-v01.png",
+    "version": 1,
+    "width": 1672,
+    "height": 941,
+    "fallback": null,
+    "original": "ChatGPT Image 8_09_2026, 09_35_07 (3).png",
+    "sha256": "7e4435503bde38cc5fb3cd36a3ffc51b3a922e916298fc9e7c0ccf5c3a2739cc"
+  },
+  {
+    "key": "art-015",
+    "src": "assets/art/art-09-35-07-4-v01.png",
+    "version": 1,
+    "width": 1672,
+    "height": 941,
+    "fallback": null,
+    "original": "ChatGPT Image 8_09_2026, 09_35_07 (4).png",
+    "sha256": "dedd8b2d6e1507a7b43b03b71d44bbdd5e75b193cc0a48ebc7c7e54dc929a70f"
+  },
+  {
+    "key": "art-016",
+    "src": "assets/art/art-09-35-07-5-v01.png",
+    "version": 1,
+    "width": 1672,
+    "height": 941,
+    "fallback": null,
+    "original": "ChatGPT Image 8_09_2026, 09_35_07 (5).png",
+    "sha256": "287ab633264b3c2c8ccc8805e1cedebe6cb0db1842af0657466a355c679c71e4"
+  },
+  {
+    "key": "art-017",
+    "src": "assets/art/art-09-35-07-6-v01.png",
+    "version": 1,
+    "width": 1672,
+    "height": 941,
+    "fallback": null,
+    "original": "ChatGPT Image 8_09_2026, 09_35_07 (6).png",
+    "sha256": "4353d17f8a7d5cbb30f9cf3e9bc0c46a1d911435b1e5dc33a978cdf6296f2d1e"
+  },
+  {
+    "key": "art-018",
+    "src": "assets/art/art-09-35-07-7-v01.png",
+    "version": 1,
+    "width": 1672,
+    "height": 941,
+    "fallback": null,
+    "original": "ChatGPT Image 8_09_2026, 09_35_07 (7).png",
+    "sha256": "aceb15d8d5a31d2e45eed47220287b358a47e015bc9aef33a3c2b22aef26b113"
+  },
+  {
+    "key": "art-019",
+    "src": "assets/art/art-09-35-07-8-v01.png",
+    "version": 1,
+    "width": 1672,
+    "height": 941,
+    "fallback": null,
+    "original": "ChatGPT Image 8_09_2026, 09_35_07 (8).png",
+    "sha256": "cc66490222346c1153699cb00d53e9c30117e2a8b29119299bb2343a0acf4a3e"
+  },
+  {
+    "key": "art-020",
+    "src": "assets/art/art-09-35-07-9-v01.png",
+    "version": 1,
+    "width": 1672,
+    "height": 941,
+    "fallback": null,
+    "original": "ChatGPT Image 8_09_2026, 09_35_07 (9).png",
+    "sha256": "1be39b389ffbfcfe5af4ee5cab7cd3bffc968926987c1cf8b39b89dac8244870"
+  },
+  {
+    "key": "finance",
+    "src": "assets/art/art-09-35-16-1-v01.png",
+    "version": 1,
+    "width": 1672,
+    "height": 941,
+    "fallback": null,
+    "original": "ChatGPT Image 8_09_2026, 09_35_16 (1).png",
+    "sha256": "7ce496470c8ce2c423ed025d8e6ef8882616eb2a47a0df01903bf0afa5c186cd"
+  },
+  {
+    "key": "art-022",
+    "src": "assets/art/art-09-35-17-10-v01.png",
+    "version": 1,
+    "width": 1672,
+    "height": 941,
+    "fallback": null,
+    "original": "ChatGPT Image 8_09_2026, 09_35_17 (10).png",
+    "sha256": "3d1dd83d045a437122a300973a8871265d8d4f2c7d894263eb612130173b68bd"
+  },
+  {
+    "key": "calendar",
+    "src": "assets/art/art-09-35-17-2-v01.png",
+    "version": 1,
+    "width": 1672,
+    "height": 941,
+    "fallback": null,
+    "original": "ChatGPT Image 8_09_2026, 09_35_17 (2).png",
+    "sha256": "cf04b56850d2c23d962a07973633c8ca6697e53188c438808ed7ecae1e29cec7"
+  },
+  {
+    "key": "art-024",
+    "src": "assets/art/art-09-35-17-3-v01.png",
+    "version": 1,
+    "width": 1672,
+    "height": 940,
+    "fallback": null,
+    "original": "ChatGPT Image 8_09_2026, 09_35_17 (3).png",
+    "sha256": "dd8929dea023f59db10dea43d15e8d146f300cd816ef22cc03142e672cd49541"
+  },
+  {
+    "key": "dashboard",
+    "src": "assets/art/art-09-35-17-4-v01.png",
+    "version": 1,
+    "width": 1672,
+    "height": 941,
+    "fallback": null,
+    "original": "ChatGPT Image 8_09_2026, 09_35_17 (4).png",
+    "sha256": "a3871ee977ed15cd35466d97a900fa43536f775744c18d1d552b602a7c5f8e2c"
+  },
+  {
+    "key": "art-026",
+    "src": "assets/art/art-09-35-17-5-v01.png",
+    "version": 1,
+    "width": 1672,
+    "height": 941,
+    "fallback": null,
+    "original": "ChatGPT Image 8_09_2026, 09_35_17 (5).png",
+    "sha256": "717b83015ed0ef5051ad5a5e0ff22898e7ec3b7005641445482c40756e8c7823"
+  },
+  {
+    "key": "art-027",
+    "src": "assets/art/art-09-35-17-6-v01.png",
+    "version": 1,
+    "width": 1672,
+    "height": 941,
+    "fallback": null,
+    "original": "ChatGPT Image 8_09_2026, 09_35_17 (6).png",
+    "sha256": "d1bd5895506f41f229ae9e0050287737add86ddbb6e3b7748848d242112f5707"
+  },
+  {
+    "key": "art-028",
+    "src": "assets/art/art-09-35-17-7-v01.png",
+    "version": 1,
+    "width": 1672,
+    "height": 941,
+    "fallback": null,
+    "original": "ChatGPT Image 8_09_2026, 09_35_17 (7).png",
+    "sha256": "ff3ceaf140b88f609c17558c5b44f49f833d52d3fc0daf445c6f1a083eb8b611"
+  },
+  {
+    "key": "art-029",
+    "src": "assets/art/art-09-35-17-8-v01.png",
+    "version": 1,
+    "width": 1672,
+    "height": 941,
+    "fallback": null,
+    "original": "ChatGPT Image 8_09_2026, 09_35_17 (8).png",
+    "sha256": "9bd8577b75cec5c599f97546113222bf0ae544b71dd9061cf39197e3843bcb8a"
+  },
+  {
+    "key": "art-030",
+    "src": "assets/art/art-09-35-17-9-v01.png",
+    "version": 1,
+    "width": 1672,
+    "height": 941,
+    "fallback": null,
+    "original": "ChatGPT Image 8_09_2026, 09_35_17 (9).png",
+    "sha256": "fb2670dd6e89ca5d4b061ac7e6f688c4d4373e32bed06ee2427844d4b6961161"
+  },
+  {
+    "key": "art-031",
+    "src": "assets/art/art-09-35-43-1-v01.png",
+    "version": 1,
+    "width": 1672,
+    "height": 941,
+    "fallback": null,
+    "original": "ChatGPT Image 8_09_2026, 09_35_43 (1).png",
+    "sha256": "8f2b95f74662493222792db201b516742606429511cbe5c71be94d80b5a56b04"
+  },
+  {
+    "key": "art-032",
+    "src": "assets/art/art-09-35-44-10-v01.png",
+    "version": 1,
+    "width": 1672,
+    "height": 941,
+    "fallback": null,
+    "original": "ChatGPT Image 8_09_2026, 09_35_44 (10).png",
+    "sha256": "78ed8862f0a616ea9bf8fdf85451d13cb49250afaceb4de90408e3e19f135229"
+  },
+  {
+    "key": "art-033",
+    "src": "assets/art/art-09-35-44-2-v01.png",
+    "version": 1,
+    "width": 1672,
+    "height": 941,
+    "fallback": null,
+    "original": "ChatGPT Image 8_09_2026, 09_35_44 (2).png",
+    "sha256": "74385e481f95b7fa6e592b28eb075f34018480c9e6c4d6202eca7592cbad0ce0"
+  },
+  {
+    "key": "art-034",
+    "src": "assets/art/art-09-35-44-3-v01.png",
+    "version": 1,
+    "width": 1672,
+    "height": 941,
+    "fallback": null,
+    "original": "ChatGPT Image 8_09_2026, 09_35_44 (3).png",
+    "sha256": "687f9661c9aa62fd4ee8bf71568a63998831a9489593ca5bfb6aa3eaf5d68e5d"
+  },
+  {
+    "key": "art-035",
+    "src": "assets/art/art-09-35-44-4-v01.png",
+    "version": 1,
+    "width": 1672,
+    "height": 941,
+    "fallback": null,
+    "original": "ChatGPT Image 8_09_2026, 09_35_44 (4).png",
+    "sha256": "8f0721a1c99362357bdab5a9075c550da84996cd2038f34b35bdaedd910bb5eb"
+  },
+  {
+    "key": "art-036",
+    "src": "assets/art/art-09-35-44-5-v01.png",
+    "version": 1,
+    "width": 1672,
+    "height": 941,
+    "fallback": null,
+    "original": "ChatGPT Image 8_09_2026, 09_35_44 (5).png",
+    "sha256": "daf5bf9e1f3f3b76bb3215cbdf6de82d77e2e5d07d4251886cd25da9711ba4e6"
+  },
+  {
+    "key": "art-037",
+    "src": "assets/art/art-09-35-44-6-v01.png",
+    "version": 1,
+    "width": 1672,
+    "height": 941,
+    "fallback": null,
+    "original": "ChatGPT Image 8_09_2026, 09_35_44 (6).png",
+    "sha256": "842f6be64362b97d330bd7b0f8155a240302b9b99dd6eecfe5e67528fa43754f"
+  },
+  {
+    "key": "art-038",
+    "src": "assets/art/art-09-35-44-7-v01.png",
+    "version": 1,
+    "width": 1672,
+    "height": 941,
+    "fallback": null,
+    "original": "ChatGPT Image 8_09_2026, 09_35_44 (7).png",
+    "sha256": "21b92d4d0c8f67326bf3bbe6828c509722ac55e2761a64a9792e59456dc6012b"
+  },
+  {
+    "key": "art-039",
+    "src": "assets/art/art-09-35-44-8-v01.png",
+    "version": 1,
+    "width": 1672,
+    "height": 941,
+    "fallback": null,
+    "original": "ChatGPT Image 8_09_2026, 09_35_44 (8).png",
+    "sha256": "1132ff7ae7ca4c4d99651a87a8415e3f95a219eaae331ff292a6914b2bf9e2cc"
+  },
+  {
+    "key": "art-040",
+    "src": "assets/art/art-09-35-44-9-v01.png",
+    "version": 1,
+    "width": 1672,
+    "height": 941,
+    "fallback": null,
+    "original": "ChatGPT Image 8_09_2026, 09_35_44 (9).png",
+    "sha256": "e7d4248cf66dd85b1fa94a72a992aa1921e9b8d2802ba610833a4f0bb0dcd2b2"
+  },
+  {
+    "key": "circuit-0",
+    "src": "assets/art/art-09-35-59-1-v01.png",
+    "version": 1,
+    "width": 1672,
+    "height": 941,
+    "fallback": null,
+    "original": "ChatGPT Image 8_09_2026, 09_35_59 (1).png",
+    "sha256": "1a214013de00aeebd373a6a06094a841a22c3922ba5d759afb7f9045f5d268c1"
+  },
+  {
+    "key": "circuit-1",
+    "src": "assets/art/art-09-35-59-2-v01.png",
+    "version": 1,
+    "width": 1672,
+    "height": 941,
+    "fallback": null,
+    "original": "ChatGPT Image 8_09_2026, 09_35_59 (2).png",
+    "sha256": "cc17ae333f79ee494b60a8ba5a371d87395b1700c6610c50f0dcf16b217d5a75"
+  },
+  {
+    "key": "circuit-2",
+    "src": "assets/art/art-09-35-59-3-v01.png",
+    "version": 1,
+    "width": 1672,
+    "height": 941,
+    "fallback": null,
+    "original": "ChatGPT Image 8_09_2026, 09_35_59 (3).png",
+    "sha256": "7f992cc43b62f92cc40da59eaef19af7337139f6ff53c1887729b0f3c7122673"
+  },
+  {
+    "key": "circuit-9",
+    "src": "assets/art/art-09-36-00-10-v01.png",
+    "version": 1,
+    "width": 1672,
+    "height": 941,
+    "fallback": null,
+    "original": "ChatGPT Image 8_09_2026, 09_36_00 (10).png",
+    "sha256": "e868aeff7c03053ef5952d68970b6f80c31514aa5263cfc116f6261b82fd3bf9"
+  },
+  {
+    "key": "circuit-3",
+    "src": "assets/art/art-09-36-00-4-v01.png",
+    "version": 1,
+    "width": 1672,
+    "height": 941,
+    "fallback": null,
+    "original": "ChatGPT Image 8_09_2026, 09_36_00 (4).png",
+    "sha256": "a89a4bc0f1bac172ce0f86a4f7515ac149a73df641c5e1048241b500b6986b1d"
+  },
+  {
+    "key": "circuit-4",
+    "src": "assets/art/art-09-36-00-5-v01.png",
+    "version": 1,
+    "width": 1672,
+    "height": 941,
+    "fallback": null,
+    "original": "ChatGPT Image 8_09_2026, 09_36_00 (5).png",
+    "sha256": "db0ee449b5e57e6a2ddf5a70c7992ca7c7ac5aa0bcf54b14bc1d0c4b0a6d4915"
+  },
+  {
+    "key": "circuit-5",
+    "src": "assets/art/art-09-36-00-6-v01.png",
+    "version": 1,
+    "width": 1672,
+    "height": 941,
+    "fallback": null,
+    "original": "ChatGPT Image 8_09_2026, 09_36_00 (6).png",
+    "sha256": "d24f8fc206ff3bfb5d818b0ff4e71fdac58fa752393fa7529a0c80d7d5fbd4c9"
+  },
+  {
+    "key": "circuit-6",
+    "src": "assets/art/art-09-36-00-7-v01.png",
+    "version": 1,
+    "width": 1672,
+    "height": 941,
+    "fallback": null,
+    "original": "ChatGPT Image 8_09_2026, 09_36_00 (7).png",
+    "sha256": "2075e130df69e07aa11e46686e59c3ceba83fc0c06e690cf09d4bff315ea9b20"
+  },
+  {
+    "key": "circuit-7",
+    "src": "assets/art/art-09-36-00-8-v01.png",
+    "version": 1,
+    "width": 1672,
+    "height": 941,
+    "fallback": null,
+    "original": "ChatGPT Image 8_09_2026, 09_36_00 (8).png",
+    "sha256": "3f65328263da2fbb6a5f3286229639a397168dedf22b0dbcac537dbaec87dc9b"
+  },
+  {
+    "key": "circuit-8",
+    "src": "assets/art/art-09-36-00-9-v01.png",
+    "version": 1,
+    "width": 1672,
+    "height": 941,
+    "fallback": null,
+    "original": "ChatGPT Image 8_09_2026, 09_36_00 (9).png",
+    "sha256": "0eef573b08169af9a66f39b6dd8732919065ff7a1e6b385ae5adcb486825413c"
+  },
+  {
+    "key": "art-051",
+    "src": "assets/art/art-09-36-11-1-v01.png",
+    "version": 1,
+    "width": 1672,
+    "height": 941,
+    "fallback": null,
+    "original": "ChatGPT Image 8_09_2026, 09_36_11 (1).png",
+    "sha256": "93b3b8be82645828f4027a7e26a73a4e4e9f60d69f66f8103b7f8560fc88e9c8"
+  },
+  {
+    "key": "art-052",
+    "src": "assets/art/art-09-36-12-10-v01.png",
+    "version": 1,
+    "width": 1672,
+    "height": 941,
+    "fallback": null,
+    "original": "ChatGPT Image 8_09_2026, 09_36_12 (10).png",
+    "sha256": "ff274e6af3cfc00a10b753098ecf9935a57d351c26f54dd0404c620df8b96f7c"
+  },
+  {
+    "key": "art-053",
+    "src": "assets/art/art-09-36-12-2-v01.png",
+    "version": 1,
+    "width": 1672,
+    "height": 941,
+    "fallback": null,
+    "original": "ChatGPT Image 8_09_2026, 09_36_12 (2).png",
+    "sha256": "42934fe7e978353d9e8753c48db805714e3611570a5f28f9874ac46182e9cc55"
+  },
+  {
+    "key": "art-054",
+    "src": "assets/art/art-09-36-12-3-v01.png",
+    "version": 1,
+    "width": 1672,
+    "height": 941,
+    "fallback": null,
+    "original": "ChatGPT Image 8_09_2026, 09_36_12 (3).png",
+    "sha256": "334128221c6d4c65b260d2bc088dabfd0674f407ca2e082fa3d2d3844b45893e"
+  },
+  {
+    "key": "art-055",
+    "src": "assets/art/art-09-36-12-4-v01.png",
+    "version": 1,
+    "width": 1672,
+    "height": 941,
+    "fallback": null,
+    "original": "ChatGPT Image 8_09_2026, 09_36_12 (4).png",
+    "sha256": "cbe9fad63bddefa324bf8d216d893a91a775b77b21ae99ee4684f6be633ccd47"
+  },
+  {
+    "key": "staff",
+    "src": "assets/art/art-09-36-12-5-v01.png",
+    "version": 1,
+    "width": 1672,
+    "height": 941,
+    "fallback": null,
+    "original": "ChatGPT Image 8_09_2026, 09_36_12 (5).png",
+    "sha256": "44913e0f28045cba2a04ee5be55a789dd77eade690c158c71e2b1695773ec850"
+  },
+  {
+    "key": "contracts",
+    "src": "assets/art/art-09-36-12-6-v01.png",
+    "version": 1,
+    "width": 1672,
+    "height": 941,
+    "fallback": null,
+    "original": "ChatGPT Image 8_09_2026, 09_36_12 (6).png",
+    "sha256": "496846c2759a079dc33cb4639869e9560aaca4e75b156dff756d505144a5e302"
+  },
+  {
+    "key": "art-058",
+    "src": "assets/art/art-09-36-12-7-v01.png",
+    "version": 1,
+    "width": 1672,
+    "height": 941,
+    "fallback": null,
+    "original": "ChatGPT Image 8_09_2026, 09_36_12 (7).png",
+    "sha256": "285825de8680fc96df5b96fbc02ffd9b2eb761db322231b6575d0ee29a02d4aa"
+  },
+  {
+    "key": "art-059",
+    "src": "assets/art/art-09-36-12-8-v01.png",
+    "version": 1,
+    "width": 1672,
+    "height": 941,
+    "fallback": null,
+    "original": "ChatGPT Image 8_09_2026, 09_36_12 (8).png",
+    "sha256": "4d1970eade5fb57f0fe146dc1fa31454dec45b4972d07c48b4185a2506011cff"
+  },
+  {
+    "key": "art-060",
+    "src": "assets/art/art-09-36-12-9-v01.png",
+    "version": 1,
+    "width": 1672,
+    "height": 941,
+    "fallback": null,
+    "original": "ChatGPT Image 8_09_2026, 09_36_12 (9).png",
+    "sha256": "125eb31e5c4d9fe86ed570123fd96d2639e40ccedb6d61f7b3780f941a3365a7"
+  },
+  {
+    "key": "grid",
+    "src": "assets/art/art-09-36-23-1-v01.png",
+    "version": 1,
+    "width": 1672,
+    "height": 941,
+    "fallback": null,
+    "original": "ChatGPT Image 8_09_2026, 09_36_23 (1).png",
+    "sha256": "5d3ba82adc2744e33d006b6b76565782e322d3c29e2b115c25502782d8bc9dee"
+  },
+  {
+    "key": "art-062",
+    "src": "assets/art/art-09-36-23-10-v01.png",
+    "version": 1,
+    "width": 1672,
+    "height": 941,
+    "fallback": null,
+    "original": "ChatGPT Image 8_09_2026, 09_36_23 (10).png",
+    "sha256": "b28338e879ffd667c7daab07eb606b3bc71c5a25535c9eec76b7628c959f4bb6"
+  },
+  {
+    "key": "art-063",
+    "src": "assets/art/art-09-36-23-2-v01.png",
+    "version": 1,
+    "width": 1672,
+    "height": 941,
+    "fallback": null,
+    "original": "ChatGPT Image 8_09_2026, 09_36_23 (2).png",
+    "sha256": "821576c9206f98ab12c5d7fdd0516c2e5ed215175d19c6471a0335a49db498fa"
+  },
+  {
+    "key": "art-064",
+    "src": "assets/art/art-09-36-23-3-v01.png",
+    "version": 1,
+    "width": 1672,
+    "height": 941,
+    "fallback": null,
+    "original": "ChatGPT Image 8_09_2026, 09_36_23 (3).png",
+    "sha256": "8ba1abda13a53281fbf9697cdbbb316079a84e0b88ff6f63be1abdce8cc8d05e"
+  },
+  {
+    "key": "art-065",
+    "src": "assets/art/art-09-36-23-4-v01.png",
+    "version": 1,
+    "width": 1672,
+    "height": 941,
+    "fallback": null,
+    "original": "ChatGPT Image 8_09_2026, 09_36_23 (4).png",
+    "sha256": "8d4849f53683bc000c47aeec82fbb3d0a61f8706c284c181c08a7dbd27173330"
+  },
+  {
+    "key": "art-066",
+    "src": "assets/art/art-09-36-23-5-v01.png",
+    "version": 1,
+    "width": 1672,
+    "height": 941,
+    "fallback": null,
+    "original": "ChatGPT Image 8_09_2026, 09_36_23 (5).png",
+    "sha256": "ea54ecbabb2eeb148d55c19869b1e810a8fbdfd236d24697fb6d5ad5a169af3d"
+  },
+  {
+    "key": "art-067",
+    "src": "assets/art/art-09-36-23-6-v01.png",
+    "version": 1,
+    "width": 1672,
+    "height": 941,
+    "fallback": null,
+    "original": "ChatGPT Image 8_09_2026, 09_36_23 (6).png",
+    "sha256": "80e4cdf3a772ccde12cf0c2c0bfac245a4d6905ae29f68baff003413382488ae"
+  },
+  {
+    "key": "podium",
+    "src": "assets/art/art-09-36-23-7-v01.png",
+    "version": 1,
+    "width": 1672,
+    "height": 941,
+    "fallback": null,
+    "original": "ChatGPT Image 8_09_2026, 09_36_23 (7).png",
+    "sha256": "24fca7d09f07113418db1b83b5c7e38fef00d43c9a78e287adfca243aaf87daf"
+  },
+  {
+    "key": "art-069",
+    "src": "assets/art/art-09-36-23-8-v01.png",
+    "version": 1,
+    "width": 1672,
+    "height": 941,
+    "fallback": null,
+    "original": "ChatGPT Image 8_09_2026, 09_36_23 (8).png",
+    "sha256": "0eec7f71b33f9f471e7a12ed6f011a11b83fca6f6d016e54e7ff5e11d6acf5fd"
+  },
+  {
+    "key": "art-070",
+    "src": "assets/art/art-09-36-23-9-v01.png",
+    "version": 1,
+    "width": 1672,
+    "height": 941,
+    "fallback": null,
+    "original": "ChatGPT Image 8_09_2026, 09_36_23 (9).png",
+    "sha256": "c4c55df8adea27b260780612cb744b15e2e8ca0557707d298b21dae8e8d99c0c"
+  },
+  {
+    "key": "art-071",
+    "src": "assets/art/art-09-36-35-1-v01.png",
+    "version": 1,
+    "width": 1024,
+    "height": 1536,
+    "fallback": null,
+    "original": "ChatGPT Image 8_09_2026, 09_36_35 (1).png",
+    "sha256": "4bdb325576f0980711e0acd7579d7c2555e783583b89e565b22bd1ab207196a8"
+  },
+  {
+    "key": "engineer",
+    "src": "assets/art/art-09-36-35-2-v01.png",
+    "version": 1,
+    "width": 1024,
+    "height": 1536,
+    "fallback": null,
+    "original": "ChatGPT Image 8_09_2026, 09_36_35 (2).png",
+    "sha256": "ec2ec3f61978d4347217dc6818db84c2fb7a4002cc0ee849b6cb30769a509f9c"
+  },
+  {
+    "key": "rider-1",
+    "src": "assets/art/art-09-36-36-10-v01.png",
+    "version": 1,
+    "width": 1024,
+    "height": 1536,
+    "fallback": null,
+    "original": "ChatGPT Image 8_09_2026, 09_36_36 (10).png",
+    "sha256": "94aef77131cdf0acad59b88dab2a61eb4136122224733bfaea89666dc2a8617e"
+  },
+  {
+    "key": "mechanic",
+    "src": "assets/art/art-09-36-36-3-v01.png",
+    "version": 1,
+    "width": 1024,
+    "height": 1536,
+    "fallback": null,
+    "original": "ChatGPT Image 8_09_2026, 09_36_36 (3).png",
+    "sha256": "784c2eaad4b6450ad50a20492fe74373f5fd7a37b2ad6df33e4b069c4685cae2"
+  },
+  {
+    "key": "art-075",
+    "src": "assets/art/art-09-36-36-4-v01.png",
+    "version": 1,
+    "width": 1024,
+    "height": 1536,
+    "fallback": null,
+    "original": "ChatGPT Image 8_09_2026, 09_36_36 (4).png",
+    "sha256": "cfcb8cf764dd9e2528333164408d05809bd428cf4863aa633803162a567aa8cd"
+  },
+  {
+    "key": "commercial",
+    "src": "assets/art/art-09-36-36-5-v01.png",
+    "version": 1,
+    "width": 1024,
+    "height": 1536,
+    "fallback": null,
+    "original": "ChatGPT Image 8_09_2026, 09_36_36 (5).png",
+    "sha256": "73fc231c1a25cf39a7c5946b7cb435e0a9dec57cceacd193d1b2364f79f3fd0f"
+  },
+  {
+    "key": "art-077",
+    "src": "assets/art/art-09-36-36-6-v01.png",
+    "version": 1,
+    "width": 1024,
+    "height": 1536,
+    "fallback": null,
+    "original": "ChatGPT Image 8_09_2026, 09_36_36 (6).png",
+    "sha256": "00f726ccbf38386f11a45482c12d8fe8e6fea9e34a5b53aeba23ec141b096e08"
+  },
+  {
+    "key": "art-078",
+    "src": "assets/art/art-09-36-36-7-v01.png",
+    "version": 1,
+    "width": 1024,
+    "height": 1536,
+    "fallback": null,
+    "original": "ChatGPT Image 8_09_2026, 09_36_36 (7).png",
+    "sha256": "2d65793b4e32b727f93a9c3256fa1d0377368b4a1dd90b633b167ca1fd2a55fd"
+  },
+  {
+    "key": "guide",
+    "src": "assets/art/art-09-36-36-8-v01.png",
+    "version": 1,
+    "width": 1024,
+    "height": 1536,
+    "fallback": null,
+    "original": "ChatGPT Image 8_09_2026, 09_36_36 (8).png",
+    "sha256": "2ecd93e80167aca71804a3ee4ea87413cc738d485f9208da3e5d4e680c13cf3b"
+  },
+  {
+    "key": "rider-0",
+    "src": "assets/art/art-09-36-36-9-v01.png",
+    "version": 1,
+    "width": 1024,
+    "height": 1536,
+    "fallback": null,
+    "original": "ChatGPT Image 8_09_2026, 09_36_36 (9).png",
+    "sha256": "af96d9d9e1db1f4e03a4a7a9eaa9bd38a5e8378f5760b5cb1013b09aba844ea6"
+  },
+  {
+    "key": "frame",
+    "src": "assets/art/art-09-37-00-1-v01.png",
+    "version": 1,
+    "width": 1672,
+    "height": 941,
+    "fallback": null,
+    "original": "ChatGPT Image 8_09_2026, 09_37_00 (1).png",
+    "sha256": "2d09815ce7bac1cb0890ee02464b53c321fb913dafc8dd5663929acfff31b6c6"
+  },
+  {
+    "key": "art-082",
+    "src": "assets/art/art-09-37-01-10-v01.png",
+    "version": 1,
+    "width": 1254,
+    "height": 1254,
+    "fallback": null,
+    "original": "ChatGPT Image 8_09_2026, 09_37_01 (10).png",
+    "sha256": "cd89950ac058d46d9c20749d17494b76127169f3a9d2271eaad37a0b80d2be37"
+  },
+  {
+    "key": "art-083",
+    "src": "assets/art/art-09-37-01-2-v01.png",
+    "version": 1,
+    "width": 1024,
+    "height": 1536,
+    "fallback": null,
+    "original": "ChatGPT Image 8_09_2026, 09_37_01 (2).png",
+    "sha256": "f515edc61f5f3ffdcf374286c07876742266faa49287664e6cb26f2424c8694e"
+  },
+  {
+    "key": "art-084",
+    "src": "assets/art/art-09-37-01-3-v01.png",
+    "version": 1,
+    "width": 1024,
+    "height": 1536,
+    "fallback": null,
+    "original": "ChatGPT Image 8_09_2026, 09_37_01 (3).png",
+    "sha256": "52773f4024c8c253540408a6ac328f032c50fa6965ac07a364be8be1ca82af6c"
+  },
+  {
+    "key": "art-085",
+    "src": "assets/art/art-09-37-01-4-v01.png",
+    "version": 1,
+    "width": 1536,
+    "height": 1024,
+    "fallback": null,
+    "original": "ChatGPT Image 8_09_2026, 09_37_01 (4).png",
+    "sha256": "45d8d598f66c706a6c21a34728e0fd103984cedc7f222f82e3fae7705ec5ff5c"
+  },
+  {
+    "key": "art-086",
+    "src": "assets/art/art-09-37-01-5-v01.png",
+    "version": 1,
+    "width": 1024,
+    "height": 1536,
+    "fallback": null,
+    "original": "ChatGPT Image 8_09_2026, 09_37_01 (5).png",
+    "sha256": "8bab01acdde53bfbaee8d4500f4068c8187eb6b20ac74cdb0871a98484568874"
+  },
+  {
+    "key": "art-087",
+    "src": "assets/art/art-09-37-01-6-v01.png",
+    "version": 1,
+    "width": 2172,
+    "height": 724,
+    "fallback": null,
+    "original": "ChatGPT Image 8_09_2026, 09_37_01 (6).png",
+    "sha256": "d6e0db8d97ae9b87f9755594334986c0a942db07b99d4faf59dcb95a25fef5e9"
+  },
+  {
+    "key": "art-088",
+    "src": "assets/art/art-09-37-01-7-v01.png",
+    "version": 1,
+    "width": 941,
+    "height": 1672,
+    "fallback": null,
+    "original": "ChatGPT Image 8_09_2026, 09_37_01 (7).png",
+    "sha256": "ab74bb0750f83c807ff277fdb8827b6b1ab7670ed0bd95a16bf2a8d116250be7"
+  },
+  {
+    "key": "art-089",
+    "src": "assets/art/art-09-37-01-8-v01.png",
+    "version": 1,
+    "width": 1448,
+    "height": 1086,
+    "fallback": null,
+    "original": "ChatGPT Image 8_09_2026, 09_37_01 (8).png",
+    "sha256": "325b8633c2d683b9a145cae4544035c266da3fed258b5995c11022bbb1a8ad5e"
+  },
+  {
+    "key": "art-090",
+    "src": "assets/art/art-09-37-01-9-v01.png",
+    "version": 1,
+    "width": 2172,
+    "height": 724,
+    "fallback": null,
+    "original": "ChatGPT Image 8_09_2026, 09_37_01 (9).png",
+    "sha256": "f516f225b35ed36d16913def377dacb0878783b2060773a1a9aeb15961aebc1e"
+  },
+  {
+    "key": "garage",
+    "src": "assets/art/art-09-37-16-1-v01.png",
+    "version": 1,
+    "width": 1672,
+    "height": 941,
+    "fallback": null,
+    "original": "ChatGPT Image 8_09_2026, 09_37_16 (1).png",
+    "sha256": "a93ef47200000c20ab7a78d37755440fc6ab904d2aa5967a2253d0674c91fb1d"
+  },
+  {
+    "key": "art-092",
+    "src": "assets/art/art-09-37-17-10-v01.png",
+    "version": 1,
+    "width": 1672,
+    "height": 941,
+    "fallback": null,
+    "original": "ChatGPT Image 8_09_2026, 09_37_17 (10).png",
+    "sha256": "061a5d2829768ec6333ef995469c70890057fa66c098772bcd31206a611a190b"
+  },
+  {
+    "key": "art-093",
+    "src": "assets/art/art-09-37-17-2-v01.png",
+    "version": 1,
+    "width": 1672,
+    "height": 941,
+    "fallback": null,
+    "original": "ChatGPT Image 8_09_2026, 09_37_17 (2).png",
+    "sha256": "2fa96856069689d310ec2ed1bfcfa62d59b93ec2e609fc19e00e2cf261fca943"
+  },
+  {
+    "key": "art-094",
+    "src": "assets/art/art-09-37-17-3-v01.png",
+    "version": 1,
+    "width": 1672,
+    "height": 941,
+    "fallback": null,
+    "original": "ChatGPT Image 8_09_2026, 09_37_17 (3).png",
+    "sha256": "eab1e68c97a66e115726c08fd908815e4c8c3169ce688d78c273a9317713f27c"
+  },
+  {
+    "key": "art-095",
+    "src": "assets/art/art-09-37-17-4-v01.png",
+    "version": 1,
+    "width": 1672,
+    "height": 941,
+    "fallback": null,
+    "original": "ChatGPT Image 8_09_2026, 09_37_17 (4).png",
+    "sha256": "98d2061ef02bc4e1851d4ba4d6dcccf120416a5490eacba6a9c660747565c9f0"
+  },
+  {
+    "key": "art-096",
+    "src": "assets/art/art-09-37-17-5-v01.png",
+    "version": 1,
+    "width": 1672,
+    "height": 941,
+    "fallback": null,
+    "original": "ChatGPT Image 8_09_2026, 09_37_17 (5).png",
+    "sha256": "d11bbf093c9b078d776216c5e0a63f399b900e88ce0addd0dd7d1ebc75903364"
+  },
+  {
+    "key": "engineering",
+    "src": "assets/art/art-09-37-17-6-v01.png",
+    "version": 1,
+    "width": 1672,
+    "height": 941,
+    "fallback": null,
+    "original": "ChatGPT Image 8_09_2026, 09_37_17 (6).png",
+    "sha256": "47c23a0705d18f828e19f9c31b60667b37346f827f8767856dd279d740d9e48f"
+  },
+  {
+    "key": "art-098",
+    "src": "assets/art/art-09-37-17-7-v01.png",
+    "version": 1,
+    "width": 1672,
+    "height": 941,
+    "fallback": null,
+    "original": "ChatGPT Image 8_09_2026, 09_37_17 (7).png",
+    "sha256": "d11b6c3553a8e485a0d0d1230870f9d1e8929d034f38491dbd93c86e39c36a49"
+  },
+  {
+    "key": "art-099",
+    "src": "assets/art/art-09-37-17-8-v01.png",
+    "version": 1,
+    "width": 1672,
+    "height": 941,
+    "fallback": null,
+    "original": "ChatGPT Image 8_09_2026, 09_37_17 (8).png",
+    "sha256": "6d4988a63742944af19aca61e2cb14b0cf3f115a4739ea36a6359e42c5d1e872"
+  },
+  {
+    "key": "art-100",
+    "src": "assets/art/art-09-37-17-9-v01.png",
+    "version": 1,
+    "width": 1672,
+    "height": 941,
+    "fallback": null,
+    "original": "ChatGPT Image 8_09_2026, 09_37_17 (9).png",
+    "sha256": "741d058407d1524eaaa0f46d88696b86ae5d32f6133dee8b5dfbf9a3c917187e"
+  },
+  {
+    "key": "pitwall",
+    "src": "assets/art/art-09-59-02-1-v01.png",
+    "version": 1,
+    "width": 1672,
+    "height": 941,
+    "fallback": null,
+    "original": "ChatGPT Image 8_09_2026, 09_59_02 (1).png",
+    "sha256": "d16094a68bb8e0fc3483ede471d0326fcaf160a778f570c2c63afaa5f1022a8c"
+  },
+  {
+    "key": "art-102",
+    "src": "assets/art/art-09-59-03-2-v01.png",
+    "version": 1,
+    "width": 1672,
+    "height": 941,
+    "fallback": null,
+    "original": "ChatGPT Image 8_09_2026, 09_59_03 (2).png",
+    "sha256": "7041052a34c8de4c1122537339febc018497a2268a9d49fce7e330ee76a7ec31"
+  },
+  {
+    "key": "art-103",
+    "src": "assets/art/art-09-59-03-3-v01.png",
+    "version": 1,
+    "width": 1672,
+    "height": 941,
+    "fallback": null,
+    "original": "ChatGPT Image 8_09_2026, 09_59_03 (3).png",
+    "sha256": "2dd00fac4a15ed963418644289ef1f1a1fcebf06f0bbe37e73ccd88781d32d30"
+  },
+  {
+    "key": "art-104",
+    "src": "assets/art/art-09-59-04-4-v01.png",
+    "version": 1,
+    "width": 1672,
+    "height": 941,
+    "fallback": null,
+    "original": "ChatGPT Image 8_09_2026, 09_59_04 (4).png",
+    "sha256": "83e5748972ad4d80a00424598e4c8cb771340cfc87a3f10c02b0e8e9b1fb1b7b"
+  },
+  {
+    "key": "art-105",
+    "src": "assets/art/art-09-59-04-5-v01.png",
+    "version": 1,
+    "width": 1672,
+    "height": 941,
+    "fallback": null,
+    "original": "ChatGPT Image 8_09_2026, 09_59_04 (5).png",
+    "sha256": "425bec1f8b825d45d06d41b4eb6f832e6f5c99865ee13de65305caf9b6a3722f"
+  },
+  {
+    "key": "art-106",
+    "src": "assets/art/art-09-59-05-6-v01.png",
+    "version": 1,
+    "width": 1672,
+    "height": 940,
+    "fallback": null,
+    "original": "ChatGPT Image 8_09_2026, 09_59_05 (6).png",
+    "sha256": "8d61175a6a29583a47e4d936f67196de35ddd0cb5ab926bcf38e9f6d734d4887"
+  },
+  {
+    "key": "art-107",
+    "src": "assets/art/art-09-59-05-7-v01.png",
+    "version": 1,
+    "width": 1672,
+    "height": 941,
+    "fallback": null,
+    "original": "ChatGPT Image 8_09_2026, 09_59_05 (7).png",
+    "sha256": "c8b245525fe8aca733d1faaf41f05e282f5d3fc6ab9f6ef1670b323156db3438"
+  },
+  {
+    "key": "art-108",
+    "src": "assets/art/art-09-59-06-8-v01.png",
+    "version": 1,
+    "width": 1672,
+    "height": 941,
+    "fallback": null,
+    "original": "ChatGPT Image 8_09_2026, 09_59_06 (8).png",
+    "sha256": "d4f3e222f46f22e281ad6d3d2206caaa4a108c8a1b7fd95ae217c07e15b2cfdd"
+  },
+  {
+    "key": "art-109",
+    "src": "assets/art/art-09-59-08-9-v01.png",
+    "version": 1,
+    "width": 1672,
+    "height": 940,
+    "fallback": null,
+    "original": "ChatGPT Image 8_09_2026, 09_59_08 (9).png",
+    "sha256": "bcb35fe16498dc700c4ffaa4d365c2e0253628fb35e4de47d17195578617846e"
+  },
+  {
+    "key": "art-110",
+    "src": "assets/art/art-09-59-09-10-v01.png",
+    "version": 1,
+    "width": 1672,
+    "height": 941,
+    "fallback": null,
+    "original": "ChatGPT Image 8_09_2026, 09_59_09 (10).png",
+    "sha256": "7110576963b7f24c8252c5d7d7ac25919da402f191275119bb5bfa516e2bc3d1"
+  }
+]
