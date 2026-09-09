@@ -1,6 +1,6 @@
-# Moto Racing Manager — Parte 1
+# Moto Racing Manager — Parte 2
 
-Jogo de gestão de uma equipe fictícia de motovelocidade feito em HTML, CSS e JavaScript modular. Esta entrega cobre o ciclo de uma temporada completa e usa as artes oficiais fornecidas pelo criador do projeto.
+Jogo de gestão de uma equipe fictícia de motovelocidade feito em HTML, CSS e JavaScript modular. A Parte 2 mantém toda a temporada jogável da Parte 1 e acrescenta gestão avançada da organização, do paddock e da marca.
 
 ## Jogar
 
@@ -10,35 +10,30 @@ Requer Node.js 20 ou superior. Não há dependências para instalar.
 npm start
 ```
 
-Abra `http://127.0.0.1:4173`. O jogo precisa de um servidor HTTP; abrir `index.html` diretamente não habilita todos os módulos nem a PWA.
+Abra `http://127.0.0.1:4173`. O projeto usa módulos ES e precisa de um servidor HTTP; abrir `index.html` diretamente não habilita toda a aplicação nem a PWA.
 
-## O que funciona
+## Novidades da Parte 2
 
-- Criação de equipe com categoria, país, cidade, cor e filosofia.
-- Mercado com 24 pilotos fictícios, seis profissionais de staff, agentes e atributos separados.
-- Contratos com contraproposta, duração, luvas, parcelas por etapa e rescisão.
-- Três fabricantes, três patrocinadores, metas, bônus e reputação mínima.
-- Ledger financeiro, projeção, compromissos, crédito, juros, premiação e reparos.
-- Dez circuitos fictícios internacionais, bandeiras vetoriais, fundos e TrackMaps próprios.
-- Treino com runs, pneus, desgaste, acerto, trabalho de garagem e feedback do engenheiro.
-- Classificação ao vivo, grid derivado dos tempos e apresentação pré-largada.
-- Corrida 2D com largada, ritmo, box, clima, ultrapassagens, incidentes, falhas e bandeiras.
-- IA rival, pontos, contagem de desempate, notícias, P&D, fim e renovação de temporada.
-- Autosave, três slots manuais, backup automático, importação e exportação JSON.
-- PWA base, cache progressivo, orientação horizontal, fullscreen e opções de acessibilidade.
+- Seis instalações com cinco níveis, custos de ampliação e manutenção.
+- Estoque de motores, carenagens, freios, suspensão e eletrônica.
+- Pedidos com custo, prazo, rastreamento e bônus de logística.
+- Cinco projetos avançados de P&D com fases, riscos, ganhos e efeitos colaterais.
+- Cinco novas funções de staff, além de moral, lealdade, fadiga, treino e descanso.
+- Oito jovens fictícios, scouting com intervalos de incerteza, academia e promoção.
+- Confiança, pressão, frustração, motivação, lesões e rivalidades entre pilotos.
+- Campanhas de mídia, audiência, engajamento, valor de mídia, marca e crises.
+- Avaliação da equipe, participação societária, ofertas e pressão de investidores.
+- Eventos contextuais com escolhas, consequências e registro no histórico.
+- Regulamento por categoria, decisões esportivas e penalidades de grid.
+- Clima com temperatura do ar e pista, vento, tendência e evolução durante a sessão.
+- IA rival com foco estratégico e desenvolvimento progressivo.
+- Quatro novas áreas funcionais: Operações, Academia, Mídia e Mundo.
 
-## Publicar no GitHub Pages
+## Conteúdo preservado da Parte 1
 
-O ZIP completo tem mais de 100 MiB porque contém 110 artes. Não envie o próprio ZIP como um arquivo do repositório. Extraia-o e envie a pasta usando Git ou GitHub Desktop. Cada arquivo individual do projeto fica abaixo do limite de 100 MiB do GitHub.
+Criação de equipe, 24 pilotos, contratos, fabricantes, patrocinadores, finanças, dez circuitos, treino, acerto, pneus, classificação, grid, corrida 2D, clima, incidentes, pontuação, notícias, P&D básico, autosave, slots, exportação, fim e renovação de temporada continuam disponíveis.
 
-1. Crie um repositório vazio no GitHub.
-2. Extraia o ZIP.
-3. No GitHub Desktop, escolha **Add an Existing Repository from your Hard Drive**. Se necessário, use **create a repository** para a pasta extraída.
-4. Faça o primeiro commit e publique o repositório.
-5. No GitHub, abra **Settings → Pages**.
-6. Em **Build and deployment**, escolha **Deploy from a branch**, branch `main` e pasta `/ (root)`.
-
-O arquivo `.nojekyll` já está incluído. Como há mais de 100 arquivos, o envio pelo navegador precisaria ser dividido; GitHub Desktop ou Git são mais adequados.
+Carreiras exportadas pela Parte 1 migram automaticamente para o formato da Parte 2. Os slots da Parte 2 usam um namespace separado e a origem antiga serve apenas como fonte de migração.
 
 ## Testar
 
@@ -48,27 +43,35 @@ npm run check
 npm run balance
 ```
 
-`npm test` valida os sistemas e uma temporada completa. `npm run check` verifica sintaxe, caminhos e o SHA-256 de todas as artes. `npm run balance` executa 50 corridas sem interface e mostra as métricas.
+- `npm test` valida a carreira e os sistemas das duas partes.
+- `npm run check` verifica sintaxe, imports, bandeiras e SHA-256 das 110 artes.
+- `npm run balance` executa corridas sem interface para medir o comportamento do motor.
+
+## Publicar no GitHub Pages
+
+O ZIP completo ultrapassa 100 MiB porque contém 110 artes. Extraia o pacote antes de publicá-lo; não adicione o ZIP dentro do repositório.
+
+1. Extraia a pasta.
+2. Adicione a pasta como repositório pelo GitHub Desktop ou Git.
+3. Faça o primeiro commit e publique a branch `main`.
+4. Em **Settings → Pages**, selecione **Deploy from a branch**, branch `main` e pasta `/ (root)`.
+
+O arquivo `.nojekyll` e o service worker versão 2 já estão incluídos.
 
 ## Estrutura
 
 ```text
 assets/                 110 artes, bandeiras e ícone
-data/                   categorias, pessoas, parceiros e circuitos
-src/core/               seed e utilitários numéricos
-src/state/              estado central da carreira
-src/systems/            contratos, finanças e temporada
+data/                   configuração, circuitos e conteúdo avançado
+src/state/              carreira e migração da Parte 2
+src/systems/            finanças, contratos, temporada e sistemas avançados
 src/simulation/         motor determinístico de sessão
 src/race/               TrackMap ligado à simulação
-src/services/           save, backup e áudio
-src/ui/                 interface e textos em PT-BR
+src/services/           saves, backup e áudio
+src/ui/                 interface principal e centrais da Parte 2
 tests/                  testes funcionais e de integração
-docs/                   bíblia, catálogo e relatórios
+docs/                   bíblia, catálogo, escopo e relatório de validação
 ```
-
-## Adicionar novas artes
-
-Consulte [docs/ASSETS.md](docs/ASSETS.md). A interface usa chaves do `asset-manifest.json`, mantendo a arte separada da lógica.
 
 ## Conteúdo e direitos
 

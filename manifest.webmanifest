@@ -1,1 +1,2 @@
-{"name":"Moto Racing Manager","short_name":"MRM","start_url":"./","scope":"./","display":"standalone","orientation":"landscape","background_color":"#0b111b","theme_color":"#0b111b","icons":[{"src":"assets/icon.svg","sizes":"any","type":"image/svg+xml","purpose":"any"}]}
+{"name":"Moto Racing Manager — Parte 2","short_name":"MRM 2","start_url":"./","scope":"./","display":"standalone","orientation":"landscape","background_color":"#0b111b","theme_color":"#0b111b","icons":[{"src":"assets/icon.svg","sizes":"any","type":"image/svg+xml","purpose":"any"}]}
+

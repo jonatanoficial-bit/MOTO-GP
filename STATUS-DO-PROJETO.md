@@ -1,9 +1,21 @@
-# Estado de trabalho
+# Estado do projeto — Parte 2
 
-O projeto está salvo nesta pasta, incluindo 110 artes originais e a bíblia em docs/biblia-mestra.pdf.
+Entrega concluída em 8 de setembro de 2026.
 
-Implementado: dados de categorias/circuitos/pessoas, contratos, ledger financeiro, sessões com simulação determinística, corrida 2D, carreira, resultados, UI, saves e preferências.
+- Código-fonte local completo e sem dependências.
+- 110 artes preservadas com SHA-256 validado.
+- 17 de 17 testes aprovados.
+- 155 verificações de sintaxe, imports, arquivos e bandeiras aprovadas.
+- 50 corridas de balanceamento executadas, com 800 largadas.
+- Página, módulos, manifesto e novos assets respondendo HTTP 200.
+- Save versão 2 com migração da Parte 1 e slots separados.
+- README, escopo, ponto de retomada e relatório de QA incluídos.
 
-Em validação: testes de integração de temporada, manifesto offline, integridade dos assets, documentação e empacotamento. Não considerar este arquivo como certificado de testes; os resultados finais ficam em docs/QA.md.
+Comandos:
 
-Retomada: executar `npm test` e `npm run check`, corrigir falhas, atualizar docs/QA.md e gerar o ZIP da pasta completa. Não apagar nem sobrescrever as artes originais.
+```bash
+npm start
+npm test
+npm run check
+npm run balance
+```

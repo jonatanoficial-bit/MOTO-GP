@@ -1,30 +1,34 @@
-# Relatório de validação — Parte 1
+# Relatório de validação — Parte 2
 
 Data: 8 de setembro de 2026.
 
 ## Resultado automatizado
 
-- 9 de 9 testes aprovados.
-- Temporada completa de dez etapas iniciada, simulada, encerrada e renovada.
-- Mesmo seed reproduz o mesmo estado e resultado.
-- Save exportado e reaberto preserva sessão em andamento.
-- Backup anterior é recuperado quando o slot principal está corrompido.
-- Contratos, rescisão, patrocínios, ledger e compromissos são reconciliados.
-- Pneu gasto piora performance; chuva favorece o composto adequado; acerto distante custa tempo.
-- Penalidade altera o grid sem duplicar posições.
-- Bandeira vermelha interrompe a sessão e a classificação respeita o cronômetro.
-- IA mantém dois pilotos por equipe na nova temporada e movimenta o mercado.
-- 128 verificações de sintaxe e integridade do código e das artes aprovadas, além das bandeiras de todos os países referenciados; 110 artes com SHA-256 confirmado.
-- Simulação em lote: 50 corridas, 800 largadas e 0,375% de abandonos na seed do teste.
-- Servidor local respondeu HTTP 200 para a página e o manifesto.
+- 17 de 17 testes aprovados.
+- Toda a cobertura da Parte 1 continua aprovada, incluindo temporada completa, determinismo, corrida, grid, finanças e saves.
+- Save da Parte 1 migra para o esquema 2 sem perder identidade, elenco ou calendário.
+- O prefixo de slots da Parte 2 é separado; o formato anterior permanece disponível para migração.
+- Instalações alteram nível e caixa; pedidos entram em trânsito e chegam ao estoque.
+- P&D avançado percorre etapas e termina em validação ou reprovação coerente.
+- Scout contratado reduz a faixa de incerteza do relatório.
+- Academia contrata, desenvolve e promove um jovem ao elenco profissional.
+- Campanhas alteram fãs e marca; investimentos alteram caixa, participação e pressão.
+- Eventos e comissários aplicam consequências persistentes.
+- Lesões e estado mental alteram os atributos usados na sessão.
+- Clima avançado contém temperatura do ar e pista, vento e previsão.
+- As quatro novas centrais geram interface com controles acionáveis.
+- O verificador confirma sintaxe e caminhos de todos os módulos, 21 bandeiras e os SHA-256 das 110 artes.
+- O servidor local respondeu HTTP 200 para a página e os novos módulos.
 
 ## Cobertura funcional
 
-Criação de equipe, elenco, staff, fabricante, patrocínio, treino, setup, pneus, classificação, grid, corrida 2D, clima, incidentes, resultados, pontuação, finanças, notícias, P&D, IA, save, autosave, slots, fim e renovação da temporada estão conectados ao estado central.
+A Parte 2 conecta instalações, estoque, logística, P&D avançado, staff, scouting, academia, lesões, relações, mídia, investidores, eventos, regulamento, comissários, clima e estratégia rival ao mesmo estado central da carreira. Custos e receitas são lançados no ledger e sobrevivem a save, exportação e retomada.
 
-## Validação visual pendente
+## Validação visual
 
-A interface possui regras responsivas para 640×360, mobile horizontal, tablet e desktop, além do bloqueio em retrato. Esta sessão não executou uma inspeção visual manual em aparelhos físicos. Antes de um lançamento público, faça uma rodada manual em celular e PC, com atenção a notch, fullscreen e desempenho das imagens no primeiro carregamento.
+A interface reutiliza o sistema visual responsivo da Parte 1 e acrescenta cartões de instalações, dossiês técnicos, métricas, decisões e painéis de diretoria. Há regras para desktop, tablet e celular horizontal, além de modo de alto contraste e movimento reduzido.
+
+Esta sessão validou estrutura, renderização por código e entrega HTTP. Antes de um lançamento público, recomenda-se uma rodada manual em aparelhos físicos para avaliar notch, tela cheia e desempenho de carregamento das artes.
 
 ## Comandos de reprodução
 
