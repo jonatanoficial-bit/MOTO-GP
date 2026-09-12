@@ -1,41 +1,44 @@
-# Moto Racing Manager — Parte 2
+# Moto Racing Manager — Parte 3
 
-Jogo de gestão de uma equipe fictícia de motovelocidade feito em HTML, CSS e JavaScript modular. A Parte 2 mantém toda a temporada jogável da Parte 1 e acrescenta gestão avançada da organização, do paddock e da marca.
+Jogo de gestão de motovelocidade em HTML, CSS e JavaScript modular. A Parte 3 preserva integralmente as Partes 1 e 2 e acrescenta retratos para todo o elenco, direção visual premium, fabricantes reais e decisões técnicas durante a corrida.
 
-## Jogar
+## Executar
 
-Requer Node.js 20 ou superior. Não há dependências para instalar.
+Requer Node.js 20 ou superior e não possui dependências externas.
 
 ```bash
 npm start
 ```
 
-Abra `http://127.0.0.1:4173`. O projeto usa módulos ES e precisa de um servidor HTTP; abrir `index.html` diretamente não habilita toda a aplicação nem a PWA.
+Abra `http://127.0.0.1:4173`. O projeto usa módulos ES e deve ser aberto por um servidor HTTP.
 
-## Novidades da Parte 2
+## Destaques da Parte 3
 
-- Seis instalações com cinco níveis, custos de ampliação e manutenção.
-- Estoque de motores, carenagens, freios, suspensão e eletrônica.
-- Pedidos com custo, prazo, rastreamento e bônus de logística.
-- Cinco projetos avançados de P&D com fases, riscos, ganhos e efeitos colaterais.
-- Cinco novas funções de staff, além de moral, lealdade, fadiga, treino e descanso.
-- Oito jovens fictícios, scouting com intervalos de incerteza, academia e promoção.
-- Confiança, pressão, frustração, motivação, lesões e rivalidades entre pilotos.
-- Campanhas de mídia, audiência, engajamento, valor de mídia, marca e crises.
-- Avaliação da equipe, participação societária, ofertas e pressão de investidores.
-- Eventos contextuais com escolhas, consequências e registro no histórico.
-- Regulamento por categoria, decisões esportivas e penalidades de grid.
-- Clima com temperatura do ar e pista, vento, tendência e evolução durante a sessão.
-- IA rival com foco estratégico e desenvolvimento progressivo.
-- Quatro novas áreas funcionais: Operações, Academia, Mídia e Mundo.
+- 44 personagens com retratos: 24 pilotos, 12 profissionais e 8 jovens da academia.
+- Elenco multirracial com diferentes gêneros, idades adultas e origens culturais.
+- Menu cinematográfico com o emblema oficial fornecido, navegação maior, botões destacados e telas baseadas no acervo visual.
+- Ducati Corse, Yamaha Racing, Honda Racing, KTM Factory Racing, Aprilia Racing e BMW Motorrad Motorsport.
+- Pacotes de fabricante com preço, arquitetura de motor e atributos próprios.
+- Mapa de motor, eletrônica, balanço de freio e combustível em tempo real.
+- Telemetria de pneus, temperatura, integridade da moto, combustível, mapa e volta.
+- Dados de treino, confiança de acerto e histórico de debriefs técnicos.
+- Saves V3 com migração automática de carreiras V1 e V2.
 
-## Conteúdo preservado da Parte 1
+## Conteúdo preservado
 
-Criação de equipe, 24 pilotos, contratos, fabricantes, patrocinadores, finanças, dez circuitos, treino, acerto, pneus, classificação, grid, corrida 2D, clima, incidentes, pontuação, notícias, P&D básico, autosave, slots, exportação, fim e renovação de temporada continuam disponíveis.
+Continuam disponíveis criação de equipe, contratos, finanças, instalações, estoque, logística, P&D, gestão humana, scouting, academia, mídia, investidores, eventos, regulamentos, clima dinâmico, IA rival, dez circuitos, treino, classificação, grid, corrida, resultados, campeonato e renovação de temporada.
 
-Carreiras exportadas pela Parte 1 migram automaticamente para o formato da Parte 2. Os slots da Parte 2 usam um namespace separado e a origem antiga serve apenas como fonte de migração.
+As Partes 1 e 2 permanecem em pastas e ZIPs independentes. A Parte 3 usa o namespace `mrm-v3-`, deixando os slots antigos intactos.
 
-## Testar
+## Controles técnicos
+
+- **Ritmo:** conservar, equilibrado ou atacar.
+- **Mapa do motor:** economia reduz consumo e falhas; potência melhora ritmo com maior consumo e risco.
+- **Eletrônica:** segura reduz risco; direta melhora resposta e aumenta exposição a incidentes.
+- **Freio dianteiro:** de 48% a 56%; afastar-se da janela ideal custa tempo nas curvas.
+- **Pneus:** composto, desgaste e temperatura reagem à pista e ao clima.
+
+## Validar
 
 ```bash
 npm test
@@ -43,36 +46,37 @@ npm run check
 npm run balance
 ```
 
-- `npm test` valida a carreira e os sistemas das duas partes.
-- `npm run check` verifica sintaxe, imports, bandeiras e SHA-256 das 110 artes.
-- `npm run balance` executa corridas sem interface para medir o comportamento do motor.
+- `npm test` valida carreira, gestão, migrações, retratos, fabricantes e simulação.
+- `npm run check` verifica sintaxe, imports, bandeiras, marcas e SHA-256 das artes.
+- `npm run balance` executa corridas determinísticas sem interface.
 
 ## Publicar no GitHub Pages
 
-O ZIP completo ultrapassa 100 MiB porque contém 110 artes. Extraia o pacote antes de publicá-lo; não adicione o ZIP dentro do repositório.
+O pacote completo ultrapassa 100 MiB por conter todas as artes. Extraia o ZIP antes de publicar e não adicione o próprio ZIP ao repositório.
 
 1. Extraia a pasta.
-2. Adicione a pasta como repositório pelo GitHub Desktop ou Git.
-3. Faça o primeiro commit e publique a branch `main`.
-4. Em **Settings → Pages**, selecione **Deploy from a branch**, branch `main` e pasta `/ (root)`.
+2. Publique o conteúdo como repositório pelo GitHub Desktop ou Git.
+3. Em **Settings → Pages**, selecione **Deploy from a branch**, branch `main` e pasta `/ (root)`.
 
-O arquivo `.nojekyll` e o service worker versão 2 já estão incluídos.
+O arquivo `.nojekyll`, o manifest PWA e o service worker V3 já estão incluídos.
 
 ## Estrutura
 
 ```text
-assets/                 110 artes, bandeiras e ícone
+assets/art/             110 cenários e imagens originais
+assets/portraits/       4 folhas de retratos geradas para a Parte 3
+assets/brands/          emblema MRM, identidade e seis wordmarks vetoriais
 data/                   configuração, circuitos e conteúdo avançado
-src/state/              carreira e migração da Parte 2
-src/systems/            finanças, contratos, temporada e sistemas avançados
-src/simulation/         motor determinístico de sessão
-src/race/               TrackMap ligado à simulação
-src/services/           saves, backup e áudio
-src/ui/                 interface principal e centrais da Parte 2
+src/state/              estado V3 e migrações
+src/systems/            finanças, contratos, temporada e gestão
+src/simulation/         motor determinístico com controles técnicos
+src/ui/                 interface premium e centrais de gestão
 tests/                  testes funcionais e de integração
-docs/                   bíblia, catálogo, escopo e relatório de validação
+docs/                   bíblia, catálogo, escopo e QA
 ```
 
-## Conteúdo e direitos
+## Conteúdo e marcas
 
-Pilotos, equipes, fabricantes, patrocinadores e circuitos desta versão são fictícios. As artes e a bíblia foram fornecidas pelo proprietário do projeto e permanecem sob os direitos definidos por ele. Nenhuma licença de terceiros é concedida por este pacote.
+Pilotos, staff, equipes rivais, patrocinadores e circuitos são fictícios. Os nomes e marcas de fabricantes pertencem aos respectivos titulares. Os wordmarks incluídos são uma apresentação vetorial criada para esta experiência independente, sem afiliação, endosso ou licença oficial.
+
+Os quatro conjuntos de retratos foram produzidos com o gerador de imagens integrado a partir de especificações de retratos fotográficos adultos, enquadramento uniforme de paddock, roupas sem marca e diversidade multirracial. Os arquivos finais estão catalogados e protegidos por SHA-256.

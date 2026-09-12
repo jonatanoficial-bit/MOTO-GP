@@ -988,5 +988,41 @@
     "fallback": null,
     "original": "ChatGPT Image 8_09_2026, 09_59_09 (10).png",
     "sha256": "7110576963b7f24c8252c5d7d7ac25919da402f191275119bb5bfa516e2bc3d1"
+  },
+  "portraits-riders-a": {
+    "src": "assets/portraits/riders-a-v01.png",
+    "version": 1,
+    "width": 1086,
+    "height": 1448,
+    "fallback": null,
+    "original": "ImageGen · pilotos A · 3x4",
+    "sha256": "53f3766d5ff5e4e0ea21e1111be01eef6638e31fd362023f08f3a1a82fb29cfd"
+  },
+  "portraits-riders-b": {
+    "src": "assets/portraits/riders-b-v01.png",
+    "version": 1,
+    "width": 1086,
+    "height": 1448,
+    "fallback": null,
+    "original": "ImageGen · pilotos B · 3x4",
+    "sha256": "99d54bae91cc93c5cebe96ebb6987cd4c412866cf289327d5428c8512d89c6ca"
+  },
+  "portraits-staff": {
+    "src": "assets/portraits/staff-v01.png",
+    "version": 1,
+    "width": 1086,
+    "height": 1448,
+    "fallback": null,
+    "original": "ImageGen · staff · 3x4",
+    "sha256": "9f5948c27e5eb8dded2ea0a64f5cd773415831da4baf6b81ba9cf4e5b45ef229"
+  },
+  "portraits-youth": {
+    "src": "assets/portraits/youth-v01.png",
+    "version": 1,
+    "width": 1536,
+    "height": 1024,
+    "fallback": null,
+    "original": "ImageGen · academia · 4x2",
+    "sha256": "d06081b7ae256504eb6096709ccfca8205fc200f944ccea128b355cdd6ee3cb5"
   }
 }
