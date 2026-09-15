@@ -28,7 +28,7 @@ test('seis fabricantes reais têm identidade visual e pacotes distintos',async()
 test('Parte 3 migra save V2 e restaura retratos sem alterar a carreira',()=>{
  const old=createCareer({seed:'migrate-v2',name:'Equipe Legado'});old.schemaVersion=2;delete old.part3;for(const r of old.riders)delete r.portraitSheet;for(const s of old.staff)delete s.portraitSheet;
  const migrated=decode(JSON.stringify(old));
- assert.equal(migrated.schemaVersion,3);assert.equal(migrated.team.name,'Equipe Legado');assert.ok(migrated.part3.flags.portraits);assert.ok(migrated.riders.every(r=>r.portraitSheet));assert.ok(migrated.staff.every(r=>r.portraitSheet));
+ assert.equal(migrated.schemaVersion,4);assert.equal(migrated.team.name,'Equipe Legado');assert.ok(migrated.part3.flags.portraits);assert.ok(migrated.riders.every(r=>r.portraitSheet));assert.ok(migrated.staff.every(r=>r.portraitSheet));
 });
 
 test('mapa de motor, eletrônica, freio e combustível afetam a simulação',()=>{

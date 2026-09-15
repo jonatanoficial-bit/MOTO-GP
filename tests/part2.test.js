@@ -29,7 +29,7 @@ test('save da Parte 1 migra para a Parte 2 sem perder a carreira',()=>{
  delete legacy.part2;
  legacy.staff=legacy.staff.filter(x=>Number(x.id.slice(1))<6);
  const migrated=decode(JSON.stringify(legacy));
- assert.equal(migrated.schemaVersion,3);
+ assert.equal(migrated.schemaVersion,4);
  assert.equal(migrated.team.name,name);
  assert.ok(migrated.part2);
  assert.ok(migrated.staff.some(x=>x.role==='scout'));

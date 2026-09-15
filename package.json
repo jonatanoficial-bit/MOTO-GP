@@ -1,1 +1,1 @@
-{"name":"moto-racing-manager-parte-3","version":"3.0.0","private":true,"type":"module","scripts":{"start":"node scripts/serve.js","test":"node --test tests/*.test.js","balance":"node scripts/balance.js","check":"node scripts/check.js"},"engines":{"node":">=20"}}
+{"name":"moto-racing-manager-parte-4","version":"4.0.0","private":true,"type":"module","scripts":{"start":"node scripts/serve.js","test":"node --test tests/*.test.js","balance":"node scripts/balance.js","check":"node scripts/check.js"},"engines":{"node":">=20"}}

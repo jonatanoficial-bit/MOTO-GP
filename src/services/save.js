@@ -1,12 +1,12 @@
 import {CATEGORIES,MANUFACTURERS,SPONSORS} from '../../data/config.js';
 import {CIRCUITS} from '../../data/circuits.js';
-import {ensurePart3,migrateToPart3} from '../state/part3.js';
+import {ensurePart4,migrateToPart4} from '../state/part4.js';
 
-const PREFIX='mrm-v3-';
-const LEGACY_PREFIXES=['mrm-v2-','mrm-v1-'];
+const PREFIX='mrm-v4-';
+const LEGACY_PREFIXES=['mrm-v3-','mrm-v2-','mrm-v1-'];
 
 export function validate(s){
- if(!s||s.schemaVersion!==3)throw Error('Versão de save não compatível. O arquivo original foi preservado.');
+ if(!s||s.schemaVersion!==4)throw Error('Versão de save não compatível. O arquivo original foi preservado.');
  if(!s.team||typeof s.team.name!=='string'||s.team.name.length>100||!/^#[a-f\d]{6}$/i.test(s.team.color))throw Error('Identidade da equipe inválida.');
  if(!CATEGORIES.some(c=>c.id===s.category)||!Number.isInteger(s.round)||s.round<0||s.round>10||!Number.isInteger(s.season)||s.season<1)throw Error('Temporada inválida.');
  for(const key of ['riders','staff','teams','contracts','ledger','calendar','results','history','news','projects','audit'])if(!Array.isArray(s[key]))throw Error('Save incompleto: '+key);
@@ -26,12 +26,12 @@ export function validate(s){
  return s;
 }
 
-export function encode(s){return JSON.stringify(validate(ensurePart3(s)));}
+export function encode(s){return JSON.stringify(validate(ensurePart4(s)));}
 export function decode(raw){
  if(typeof raw!=='string'||raw.length>12000000)throw Error('Arquivo de save inválido ou muito grande.');
  const parsed=JSON.parse(raw);
- if(![1,2,3].includes(parsed?.schemaVersion))throw Error('Versão de save não compatível. O arquivo original foi preservado.');
- return validate([1,2].includes(parsed.schemaVersion)?migrateToPart3(parsed):ensurePart3(parsed));
+ if(![1,2,3,4].includes(parsed?.schemaVersion))throw Error('Versão de save não compatível. O arquivo original foi preservado.');
+ return validate(migrateToPart4(parsed));
 }
 export function save(s,slot='auto',storage=localStorage){
  const raw=encode(s),key=PREFIX+slot,previous=storage.getItem(key);
