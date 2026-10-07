@@ -21,7 +21,7 @@ Abra `http://127.0.0.1:4173`. O projeto deve ser aberto por servidor HTTP por us
 - Pit wall por piloto: mapa de motor, ritmo, eletrônica, balanço de freio, uso de pneus, composto do próximo pit e velocidade da parada.
 - Grid e pódio integrados ao circuito atual, com estratégia pré-largada, ocorrências, pontos e impacto financeiro.
 - Tutorial em seis etapas, central de mensagens e saves com migração de carreiras antigas preservando os slots anteriores.
-- Interface adaptada para celular em **paisagem**, com controles grandes e orientação de retrato bloqueada durante o jogo.
+- Interface vertical nativa para celular, com barra de navegação de toque, alvos de pelo menos 44 px e corrida organizada por decisões rápidas; o modo paisagem continua suportado.
 
 ## Imersão visual
 
