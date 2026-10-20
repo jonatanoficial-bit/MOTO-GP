@@ -16,7 +16,8 @@ Abra `http://127.0.0.1:4173`. O projeto deve ser aberto por servidor HTTP por us
 
 - Centro de comando cinematográfico, com ambientes que evoluem de startup a equipe de elite.
 - Gestão de pilotos, staff, parceiros, finanças, instalações, estoque, logística, P&D, academia, mídia, investidores, eventos e regulamentos.
-- Avatares multiculturais em perfis, negociações, grid, controle de corrida e resultados; cada piloto mantém bandeira e identidade visual.
+- Avatares multiculturais em perfis, negociações, grid, controle de corrida e resultados; cada pessoa mantém bandeira, função, forma e identidade visual.
+- Diretório humano com dossiês de pilotos e staff, nacionalidade, especialidade, pressão ou fadiga e vínculo contratual.
 - Corrida transmitida ao vivo com motos na pista, ranking, gaps, melhor volta, rádio, clima e telemetria.
 - Pit wall por piloto: mapa de motor, ritmo, eletrônica, balanço de freio, uso de pneus, composto do próximo pit e velocidade da parada.
 - Grid e pódio integrados ao circuito atual, com estratégia pré-largada, ocorrências, pontos e impacto financeiro.

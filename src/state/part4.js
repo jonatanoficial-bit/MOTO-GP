@@ -1,4 +1,5 @@
-import {RIDERS} from '../../data/config.js';
+import {RIDERS,STAFF} from '../../data/config.js';
+import {PART2_STAFF} from '../../data/part2.js';
 import {ensurePart3} from './part3.js';
 
 const tutorialSteps=['fundacao','contratos','fim-de-semana','pitwall','resultado','inbox'];
@@ -12,6 +13,11 @@ export function ensurePart4(s){
  for(const rider of s.riders){
   const reference=RIDERS.find(x=>x.id===rider.id);
   if(reference?.nationality)rider.nationality=reference.nationality;
+ }
+ for(const member of s.staff){
+  const reference=[...STAFF,...PART2_STAFF].find(x=>x.id===member.id);
+  if(reference?.nationality)member.nationality=reference.nationality;
+  if(reference?.biography)member.biography=reference.biography;
  }
  if(!s.part4)s.part4=createPart4State();
  s.part4.tutorial??={completed:[],dismissed:false};
