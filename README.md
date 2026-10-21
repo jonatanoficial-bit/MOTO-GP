@@ -23,6 +23,7 @@ Abra `http://127.0.0.1:4173`. O projeto deve ser aberto por servidor HTTP por us
 - Grid e pódio integrados ao circuito atual, com estratégia pré-largada, ocorrências, pontos e impacto financeiro.
 - Tutorial em seis etapas, central de mensagens e saves com migração de carreiras antigas preservando os slots anteriores.
 - Direção de temporada com objetivos esportivos, técnicos ou comerciais, recompensa no caixa e reputação que persistem na carreira.
+- Briefing técnico antes de cada sessão, com assinatura do traçado, previsão, abrasão, recomendação de pneus e presets de estratégia que alimentam a mesma simulação da corrida.
 - Interface vertical nativa para celular, com barra de navegação de toque, alvos de pelo menos 44 px e corrida organizada por decisões rápidas; o modo paisagem continua suportado.
 
 ## Imersão visual
