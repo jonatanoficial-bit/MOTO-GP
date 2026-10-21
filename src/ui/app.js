@@ -100,6 +100,22 @@ preSession=preSessionV8;
 document.addEventListener('click',event=>{const control=event.target.closest('[data-action="brief-preset"]');if(!control)return;event.preventDefault();applyBriefPreset(control.dataset.id);});
 document.addEventListener('change',event=>{const control=event.target;if(!state?.weekend||state.session)return;const fields={"pre-tyre":"tyre","pre-pace":"pace","pre-engine":"engineMode","pre-electronics":"electronics","pre-brake":"brakeBias"},field=fields[control.id];if(!field)return;state.weekend[field]=field==='pace'||field==='brakeBias'?+control.value:control.value;persist();});
 
+/* Parte 9 — todos os comandos das centrais de gestão escrevem na carreira. */
+const managementActions={
+ 'facility-upgrade':control=>{upgradeFacility(state,control.dataset.id);return 'Instalação ampliada e registrada no plano operacional.';},
+ 'component-order':control=>{orderComponent(state,control.dataset.id);return 'Pedido de componente enviado à logística.';},
+ 'advanced-start':control=>{startAdvancedProject(state,control.dataset.id);return 'Dossiê técnico iniciado. Acompanhe a validação na operação.';},
+ 'staff-action':control=>{staffAction(state,control.dataset.id,control.dataset.mode);return control.dataset.mode==='rest'?'Recuperação do profissional programada.':'Formação técnica iniciada.';},
+ scout:control=>{scoutProspect(state,control.dataset.id);return 'Relatório de scouting atualizado.';},
+ 'academy-sign':control=>{signAcademy(state,control.dataset.id);return 'Talento integrado à academia.';},
+ 'academy-promote':control=>{promoteProspect(state,control.dataset.id);return 'Talento promovido ao elenco principal.';},
+ 'media-action':control=>{runMediaAction(state,control.dataset.id);return 'Campanha publicada; o impacto entrou na carreira.';},
+ 'investor-create':()=>{const offer=createInvestorOffer(state);return `Proposta de ${money(offer.amount)} recebida pela diretoria.`;},
+ 'investor-decision':control=>{decideInvestor(state,control.dataset.id,control.dataset.accept==='true');return control.dataset.accept==='true'?'Aporte aprovado e capital registrado.':'Proposta recusada; autonomia preservada.';},
+ 'world-event':control=>{resolveWorldEvent(state,control.dataset.id,control.dataset.choice);return 'Decisão registrada; as consequências já estão em vigor.';}
+};
+document.addEventListener('click',event=>{const control=event.target.closest('[data-action]'),handler=control&&managementActions[control.dataset.action];if(!handler||!state)return;event.preventDefault();try{const message=handler(control);persist();render();toast(message);}catch(error){toast(error.message);}});
+
 
 
 

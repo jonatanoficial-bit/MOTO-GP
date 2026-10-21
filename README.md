@@ -24,6 +24,7 @@ Abra `http://127.0.0.1:4173`. O projeto deve ser aberto por servidor HTTP por us
 - Tutorial em seis etapas, central de mensagens e saves com migração de carreiras antigas preservando os slots anteriores.
 - Direção de temporada com objetivos esportivos, técnicos ou comerciais, recompensa no caixa e reputação que persistem na carreira.
 - Briefing técnico antes de cada sessão, com assinatura do traçado, previsão, abrasão, recomendação de pneus e presets de estratégia que alimentam a mesma simulação da corrida.
+- Centrais de operação, academia, mídia e diretoria com comandos conectados ao save: cada investimento, campanha ou decisão altera a carreira imediatamente.
 - Interface vertical nativa para celular, com barra de navegação de toque, alvos de pelo menos 44 px e corrida organizada por decisões rápidas; o modo paisagem continua suportado.
 
 ## Imersão visual
