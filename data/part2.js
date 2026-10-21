@@ -51,3 +51,8 @@ export const EVENT_TEMPLATES=[
  {id:'rivalApproach',title:'Sondagem no paddock',body:'Uma equipe rival procurou discretamente um integrante do seu staff.',choices:[['raise','Oferecer bônus de retenção'],['trust','Confiar no contrato atual']]},
  {id:'mediaQuestion',title:'Pressão da imprensa',body:'Uma entrevista exige resposta sobre a fase esportiva da equipe.',choices:[['honest','Reconhecer os desafios'],['bold','Prometer reação imediata']]}
 ];
+export const CAREER_DIRECTIVES=[
+ {id:'sport',name:'Ambição esportiva',title:'Levar a equipe aos pontos',description:'Construa um fim de semana consistente e some pontos no campeonato de equipes.',metric:'points',targets:{rookie:28,inter:40,elite:52},reward:90000,reputation:4},
+ {id:'technical',name:'Excelência técnica',title:'Elevar a capacidade da sede',description:'Amplie instalações e consolide uma operação capaz de desenvolver a moto durante a temporada.',metric:'facilities',targets:{rookie:6,inter:7,elite:8},reward:80000,reputation:3},
+ {id:'commercial',name:'Marca global',title:'Criar uma base de fãs',description:'Use resultados e mídia para transformar a equipe em uma marca reconhecida pelo público.',metric:'fans',targets:{rookie:58000,inter:62000,elite:68000},reward:75000,reputation:3}
+];

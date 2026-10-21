@@ -1,5 +1,5 @@
 import {FACILITIES,COMPONENTS,ADVANCED_PROJECTS,MEDIA_ACTIONS} from '../../data/part2.js';
-import {facilityCost,upgradeFacility,orderComponent,startAdvancedProject,staffAction,scoutProspect,signAcademy,promoteProspect,runMediaAction,createInvestorOffer,decideInvestor,resolveWorldEvent} from '../systems/part2.js';
+import {facilityCost,upgradeFacility,orderComponent,startAdvancedProject,staffAction,scoutProspect,signAcademy,promoteProspect,runMediaAction,createInvestorOffer,decideInvestor,resolveWorldEvent,chooseCareerDirective} from '../systems/part2.js';
 import {money} from './text.js';
 
 export function installPart2Controller({getState,render,persist,toast,confirmAction,closeDialog}){
@@ -48,6 +48,8 @@ export function installPart2Controller({getState,render,persist,toast,confirmAct
     decideInvestor(s,id,el.dataset.accept==='true');persist();render();toast('Decisão de investimento registrada.');
    }else if(action==='world-event'){
     resolveWorldEvent(s,id,el.dataset.choice);persist();render();toast('Consequência aplicada à carreira.');
+   }else if(action==='career-directive'){
+    const directive=chooseCareerDirective(s,id);persist();render();toast('Meta aprovada: '+directive.title+'.');
    }else return;
    event.preventDefault();
   }catch(error){toast(error.message);}
